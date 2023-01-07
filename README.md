@@ -6,7 +6,13 @@ A student Project from the University of Poitiers , in France
 * The code as well as explanations are only in French unfortunately.
 * Feel free to look at our code but all rights are reserved. 
 
-<H1> [ ///////  Have fun ;) ///////] </H1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <metacharset="utf-8">
+    <title> [ ///////  Have fun ;) ///////] </title>
+  </head>
+</html>
 
 
 
