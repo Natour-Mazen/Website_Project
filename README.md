@@ -9,7 +9,7 @@ A student Project from the University of Poitiers , in France
 
 <title> [ ///////  Have fun ;) ///////] </title>
 
-
+<br></br>
 
 
 
@@ -20,6 +20,6 @@ A student Project from the University of Poitiers , in France
 <title>  [ /////// Amusez-vous bien ;) ///////] </title>
 
 
-=====================PREVIEW/APERÇU==============
 
+=====================PREVIEW/APERÇU==============
 ![image](https://user-images.githubusercontent.com/115185120/211171786-f84108e0-5a5d-4037-9bf3-ca38d3973bff.png)
