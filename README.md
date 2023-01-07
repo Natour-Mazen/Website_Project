@@ -6,7 +6,7 @@ A student Project from the University of Poitiers , in France
 * I chose to make a platform game where the player must find the real object to win.
 * unfortunately the Phaser framework in the project is no longer working, and therefore you will not be able to download it to test it. But, you can test it by following this link :  https://icn.lycee-valin.fr/projets2017/seconde5/jeu/eleve2/index.html
 * The code as well as explanations are only in French unfortunately.
-* Feel free to look at our code but all rights are reserved. 
+* Feel free to look at my code but all rights are reserved. 
 <title> [ ///////  Have fun ;) ///////] </title>
 <br></br>
 
