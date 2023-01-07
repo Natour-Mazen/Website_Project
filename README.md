@@ -6,7 +6,7 @@ A student Project from the University of Poitiers , in France
 * The code as well as explanations are only in French unfortunately.
 * Feel free to look at our code but all rights are reserved. 
 
-.<h1> [ ///////  Have fun ;) ///////] </h1>
+<.h1> [ ///////  Have fun ;) ///////] </h1>
 
 
 
@@ -14,5 +14,5 @@ A student Project from the University of Poitiers , in France
 * Je suis étudiants de l'Université de Poitiers et je devais réaliser un projet qui est créer un site web sur un thème qui nous intéresse, ainsi j'ai choisi le thème des jeux vidéos, le tout en utilisant les langages du web classique tel que HTML, CSS et Javascript.
 * Soyez libre de regarder notre code mais tout droit est reservé. 
 
-.<h1> [ /////// Amusez-vous bien ;) ///////] </h1>
+<.h1> [ /////// Amusez-vous bien ;) ///////] </h1>
 
