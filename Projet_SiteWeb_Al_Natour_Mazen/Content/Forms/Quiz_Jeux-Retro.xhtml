@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Quiz Time</title>
+		<link rel="stylesheet" href="../../Styles/Quiz-Jeux.css"/>
+	</head>
+	<body>
+		<div id="page">
+			<form name="formulaire" id="id_form"
+          action="http://voca.univ-poitiers.fr/~subrenat/cours_web/traitement.php"
+          method="post">
+				<div id="header">
+					<h1>Quiz Jeux Retro</h1>
+					<h3>Testez-vous pour voir ce que vous avez appris</h3>
+				</div>
+			<fieldset>
+					<legend>Je m'identifie 🙃 :</legend>
+					
+					<label for="prénom" class="pre-input"> Mon prénom :</label>
+					<input type="text" name="prénom" id="prénom"/><br></br>
+
+					<label for="Nom" class="pre-input">Mon Nom :</label>
+					<input type="text" name="Nom" id="Nom"/><br></br>
+
+					<label for="email" class="pre-input">Mon E-mail :</label>
+					<input type="email" name="email" id="email"/><br></br>
+				</fieldset>
+				
+				<fieldset>
+					<legend> C'est partie 😉 :</legend>
+					
+				<p>
+					<span class="Questions">Quelles exemples sont utilisés pour les jeux Rétro ?</span>
+					<input type="checkbox" name="Super Mario 64" id="Super Mario 64"/>
+					<label for="Super Mario 64"> Super Mario 64</label>
+					<input type="checkbox" name="Pac-Man" id="Pac-Man"/>
+					<label for="Pac-Man">Pac-Man </label>
+					<input type="checkbox" name="Zelda" id="Zelda"/>
+					<label for="Zelda">Zelda </label>
+					<input type="checkbox" name="Tetris" id="Tetris"/>
+					<label for="Tetris">Tetris </label>
+				</p>
+				<p>
+					<span class="Questions">En Quelle année l'Histoire des jeux Rétro commence ?</span>
+					<input type="radio" name="Annee1" id="1968"/>
+					<label for="1968">1968</label>
+					<input type="radio" name="Annee1" id="1972"/>
+					<label for="1972">1972</label>
+					<input type="radio" name="Annee1" id="1970"/>
+					<label for="1970">1970</label>
+					<input type="radio" name="Annee1" id="1990"/>
+					<label for="1990">1990</label>
+				</p>
+				<p>
+					<span class="Questions">En Quelle année est sortie Pac-Man ?</span>
+					<input type="radio" name="AnneePc" id="21/05/1980"/>
+					<label for="21/05/1980">21/05/1980</label>
+					<input type="radio" name="AnneePc" id="22/05/1980"/>
+					<label for="22/05/1980">22/05/1980</label>
+					<input type="radio" name="AnneePc" id="24/05/1980"/>
+					<label for="24/05/1980">24/05/1980</label>
+					<input type="radio" name="AnneePc" id="23/05/1982"/>
+					<label for="23/05/1982">23/05/1982</label>
+				</p>
+				<p>
+					<label for="Dvp" class="Questions">Le developpeur de Pac-Man est :</label>
+					<select name="Dvp" id="Dvp">
+						<option value="default">--choisissez votre réponse--</option>
+						<option value="Markus Persson">Markus Persson</option>
+						<option value="Toru Twatani">Toru Twatani</option>
+						<option value="Takashi Tezuka">Takashi Tezuka</option>
+						<option value="Koji Konda">Koji Konda</option>
+					</select><br></br>
+				</p>
+				<p>
+					<label for="DvpStudio" class="Questions">Le Studio qui a dévloppé Pac-Man est :</label>
+					<select name="DvpStudio" id="DvpStudio">
+						<option value="default">--choisissez votre réponse--</option>
+						<option value="Namco">Namco</option>
+						<option value="Nintendo">Nintendo</option>
+						<option value="Taito">Taito</option>
+						<option value="Capcon">Capcon</option>
+					</select><br></br>
+				</p>
+				<p>
+					<span class="Questions">Qu'est ce que Pac-Man(et version féminine) met en évidence ? </span>
+					<input type="checkbox" name="Les jeux vidéos d'arcade" id="Les jeux vidéos d'arcade"/>
+					<label for="Les jeux vidéos d'arcade"> Les jeux vidéos d'arcade </label>
+					<input type="checkbox" name="La popularité du jeu" id="La popularité du jeu"/>
+					<label for="La popularité du jeu">La popularité du jeu </label>
+					<input type="checkbox" name="La déplacement aléatoire des Fantômes" id="La déplacement aléatoire des Fantômes"/>
+					<label for="La déplacement aléatoire des Fantômes">La déplacement aléatoire des Fantômes </label>
+					<input type="checkbox" name="Le principe du jeu" id="Le principe du jeu"/>
+					<label for="Le principe du jeu">Le principe du jeu </label>
+				</p>
+				<p>
+					<span class="Questions">En Quelle année est sortie Tetris ?</span>
+					<input type="radio" name="AnneeTe" id="Janvier 1980"/>
+					<label for="Janvier 1980">Janvier 1980</label>
+					<input type="radio" name="AnneeTe" id="Mai 1983"/>
+					<label for="Mai 1983">Mai 1983</label>
+					<input type="radio" name="AnneeTe" id="Juin 1984"/>
+					<label for="Juin 1984">Juin 1984</label>
+					<input type="radio" name="AnneeTe" id="Avril 1987"/>
+					<label for="Avril 1987">Avril 1987</label>
+				</p>
+				<p>
+					<span class="Questions">Lors de la création du concept, combien de développeur était sur le Projet ? </span>
+					<input type="checkbox" name="2" id="2"/>
+					<label for="2"> 2 </label>
+					<input type="checkbox" name="3" id="3"/>
+					<label for="3">3 </label>
+					<input type="checkbox" name="1" id="1"/>
+					<label for="1"> 1 </label>
+					<input type="checkbox" name="6" id="6"/>
+					<label for="6">6</label>
+				</p>
+				<p>
+					<label for="Dvp2" class="Questions">Le developpeur de Tetris est :</label>
+					<select name="Dvp2" id="Dvp2">
+						<option value="default">--choisissez votre réponse--</option>
+						<option value="Dimitri Pavlovski">Dimitri Pavlovski</option>
+						<option value="Vadim Guerassimov">Vadim Guerassimov</option>
+						<option value="Koji Konda">Koji Konda</option>
+						<option value="Aleksei Pajitnov">Aleksei Pajitnov</option>
+					</select>
+				</p>
+				<p>
+					<span class="Questions">Quelle est le nom donné aux pièces de formes différentes ?</span>
+					<input type="radio" name="pièces" id="Thanos"/>
+					<label for="Thanos">Thanos</label>
+					<input type="radio" name="pièces" id="Tetriminos"/>
+					<label for="Tetriminos">Tetriminos</label>
+					<input type="radio" name="pièces" id="Theos"/>
+					<label for="Theos">Theos</label>
+					<input type="radio" name="pièces" id="Thalos"/>
+					<label for="Thalos">Thalos</label>
+				</p>
+				</fieldset>
+				<fieldset>
+					<legend>Un Avis 🤔 :</legend>
+					<label for="message" id="pre-msg">Un avis sur le quiz ? , Laissez un message (facultatif) :</label><br></br>
+					<textarea maxlength="300" cols="82" rows="3" name="message" id="message" placeholder="Maximum 300 caractères !"></textarea>
+				</fieldset>
+				
+				<div id="buttons">
+					<input type="submit" name="envoyer" value="Envoyer"/>
+					<section class="home1">
+						<a href="../collection/Quiz.xhtml">Retour Page Quiz</a>
+					</section>
+					<input type="reset" name="reset" value="Réinitialiser" onclick="window.alert('Vous venez de réinitialiser le formulaire !')"/>
+				</div>
+			</form>
+		</div>	
+	</body>
+</html>

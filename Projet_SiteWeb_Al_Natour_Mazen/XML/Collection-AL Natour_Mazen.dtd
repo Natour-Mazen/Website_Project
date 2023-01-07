@@ -1,0 +1,36 @@
+<!-- Al Natour Mazen , LAS informatique groupe 6a -->
+
+<!ELEMENT jeux (title,Histoire,jeux-rétro,jeux-modernes,image*,Quiz,source?)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT Histoire (#PCDATA)>
+
+
+<!ELEMENT jeux-modernes (exemple+)>
+<!ATTLIST jeux-modernes
+	  nbr exemples CDATA #REQUIRED>
+
+<!ELEMENT jeux-rétro (exemple+)>
+<!ATTLIST jeux-rétro
+	  nbr exemples CDATA #REQUIRED>
+	  
+
+<!ELEMENT exemple (#PCDATA)>
+<!ATTLIST exemple
+	  author CDATA #REQUIRED
+	  date-creation CDATA #REQUIRED
+	  programming-language CDATA #IMPLIED >
+	  
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+    name CDATA #REQUIRED>
+
+
+<!ELEMENT Quiz (#PCDATA)>
+<!ATTLIST Quiz
+	  level (easy|medium|hard) "easy" >
+
+
+<!ELEMENT source (#PCDATA)>
+<!ATTLIST source
+	  href CDATA #IMPLIED>

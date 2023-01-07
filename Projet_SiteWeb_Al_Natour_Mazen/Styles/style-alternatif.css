@@ -1,0 +1,134 @@
+/* Paramètres de Styles alternatif spécifique à la page jeux vidéos.xhtml */
+.image1{
+  width:190px;
+  display: inline-block;
+  transition: all 1.5s ease;
+  margin: auto ;
+  opacity: 0.3;
+}
+.image2{
+  width:190px;
+  display: inline-block;
+  transition: all 1.5s ease;
+  opacity: 0.3;
+}
+.image3{
+  width:200px;
+  display: inline-block;
+  transition: all 1.5s ease;
+  opacity: 0.3;
+  margin: -1px ;
+}
+.image1:hover{
+  width:200px;
+  opacity: 1;
+}
+.image2:hover{
+  width:200px;
+  opacity: 1;
+}
+.image3:hover{
+  width:210px;
+  opacity: 1;
+}
+.proch
+{
+	 display: inline-block;
+	 border:2px grey solid;
+	 border-width:5px;
+	 border-radius:5px;
+	 height:auto;
+	 padding-bottom: -2px;
+	 margin-bottom:50px;
+	 margin-top : 40px;
+	 margin-left: 89.5px;
+	 margin-right : 25px;
+	
+}
+
+/* Paramètres de Styles alternatif  spécifique aux pages Sources */
+.img{
+  width:220px;
+  display: inline-block;
+  transition: all 1.5s ease;
+  opacity: 0.3;
+	margin-top: 
+}
+.img:hover{
+  width:230px;
+  opacity: 1;
+}
+.prochain
+{
+	 display: inline-block;
+	 border:2px grey solid;
+	 border-width:5px;
+	 border-radius:5px;
+	 margin-bottom:50px;
+	 margin-top : 50px;
+	 margin-left: 395px;
+}
+.sitesource{
+	margin:auto;
+	 width:1000px;
+	 border:8px black solid;
+	 border-width:5px;
+	 border-radius:10px;
+	 height:115px;
+	 background:white;
+	 padding-left:30px;
+	 margin-bottom:50px;
+}
+
+/* Paramètres de Styles Générale alternatif  pour toutes les pages */
+h1
+{
+	color: black ; 
+    margin:auto;
+	 width:900px;
+	 text-align:center;
+	 border:8px black solid;
+	 border-width:5px;
+	 border-radius:10px;
+	 background:white;
+	 padding-left:30px;
+	 margin-bottom:20px;
+	 padding-bottom : 5px;
+	font-weight: bolder;
+
+}  
+
+body
+{
+	background-color: #3a9e9c;
+}
+
+.info
+ {
+	 color:Blue;
+	 font-size:20em;
+	 font-weight:bold;
+	 text-decoration:underline;
+ }
+ 
+.date
+ {
+	 text-align:right;
+	 color:blue;
+	 font-size:20em;
+	 font-weight:bold;
+	 text-decoration:underline;
+ }
+
+.site
+{
+	margin:auto;
+	 width:1000px;
+	 border:8px black solid;
+	 border-width:5px;
+	 border-radius:10px;
+	 height:200px;
+	 background:white;
+	 padding-left:30px;
+	 margin-bottom:50px;
+}

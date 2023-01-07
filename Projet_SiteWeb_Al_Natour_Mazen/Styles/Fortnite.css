@@ -1,0 +1,47 @@
+/* Paramètres de Styles spécifique à la page Fortnite.html */
+.image3{
+  width:248px;
+  display: inline-block;
+  transition: all 1.5s ease;
+  opacity: 0.3;
+  margin: -1px ;
+}
+.home{
+  width:190px;
+  display: inline-block;
+  transition: all 1.5s ease;
+  margin: auto ;
+  opacity: 0.3;
+}
+.Mc{
+  width:160px;
+  display: inline-block;
+  transition: all 1.5s ease;
+  margin: auto ;
+  opacity: 0.3;
+}
+
+.image3:hover{
+  width:280px;
+  opacity: 1;
+}
+.home:hover{
+  width:204px;
+  opacity: 1;
+}
+.Mc:hover{
+  width:180px;
+  opacity: 1;
+}
+
+.proch1
+{
+	 display: inline-block;
+	 border:2px grey solid;
+	 border-width:5px;
+	 border-radius:5px;
+	 margin-bottom:50px;
+	 margin-top : 70px;
+	 margin-left: 89.5px;
+	 margin-right : 25px;
+}

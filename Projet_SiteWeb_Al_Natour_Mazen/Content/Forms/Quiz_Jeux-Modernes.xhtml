@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Quiz Time</title>
+		<link rel="stylesheet" href="../../Styles/Quiz-Jeux.css"/>
+	</head>
+	<body>
+		<div id="page">
+			<form name="formulaire" id="id_form"
+          action="http://voca.univ-poitiers.fr/~subrenat/cours_web/traitement.php"
+          method="post">
+				<div id="header">
+					<h1>Quiz Jeux Modernes</h1>
+					<h3>Testez-vous pour voir ce que vous avez appris</h3>
+				</div>
+			<fieldset>
+					<legend>Je m'identifie 🙃 :</legend>
+					
+					<label for="prénom" class="pre-input"> Mon prénom :</label>
+					<input type="text" name="prénom" id="prénom"/><br></br>
+
+					<label for="Nom" class="pre-input">Mon Nom :</label>
+					<input type="text" name="Nom" id="Nom"/><br></br>
+
+					<label for="email" class="pre-input">Mon E-mail :</label>
+					<input type="email" name="email" id="email"/><br></br>
+				</fieldset>
+				
+				<fieldset>
+					<legend> C'est partie 😉 :</legend>
+					
+				<p>
+					<span class="Questions">Quelles exemples sont utilisés pour les jeux Modernes ?</span>
+					<input type="checkbox" name="Minecraft" id="Minecraft"/>
+					<label for="Minecraft"> Minecraft </label>
+					<input type="checkbox" name="Among US" id="Among US"/>
+					<label for="Among US">Among US </label>
+					<input type="checkbox" name="Fortnite" id="Fortnite"/>
+					<label for="Fortnite">Fortnite </label>
+					<input type="checkbox" name="Fifa 21" id="Fifa 21"/>
+					<label for="Fifa 21">Fifa 21 </label>
+				</p>
+				<p>
+					<span class="Questions">En Quelle année l'Histoire des jeux Modernes commence ?</span>
+					<input type="radio" name="Annee1" id="2002"/>
+					<label for="2002">2002</label>
+					<input type="radio" name="Annee1" id="2006"/>
+					<label for="2006">2006</label>
+					<input type="radio" name="Annee1" id="2010"/>
+					<label for="2010">2010</label>
+					<input type="radio" name="Annee1" id="2011"/>
+					<label for="2011">2011</label>
+				</p>
+				<p>
+					<span class="Questions">En Quelle année est sortie Minecraft ?</span>
+					<input type="radio" name="AnneeMc" id="18/11/2011"/>
+					<label for="18/11/2011">18/11/2011</label>
+					<input type="radio" name="AnneeMc" id="20/10/2010"/>
+					<label for="20/10/2010">20/10/2010</label>
+					<input type="radio" name="AnneeMc" id="03/02/2009"/>
+					<label for="03/02/2009">03/02/2009</label>
+					<input type="radio" name="AnneeMc" id="10/05/2009"/>
+					<label for="10/05/2009">10/05/2009</label>
+				</p>
+				<p>
+					<label for="Dvp" class="Questions">Le developpeur de Minecraft est :</label>
+					<select name="Dvp" id="Dvp">
+						<option value="default">--choisissez votre réponse--</option>
+						<option value="Bill Gates">Bill Gates</option>
+						<option value="Elon Musk">Elon Musk</option>
+						<option value="Markus Persson">Markus Persson</option>
+						<option value="InnerSloth">InnerSloth</option>
+					</select><br></br>
+				</p>
+				<p>
+					<label for="DvpStudio" class="Questions">Le Studio qui a dévloppé Minecraft est :</label>
+					<select name="DvpStudio" id="DvpStudio">
+						<option value="default">--choisissez votre réponse--</option>
+						<option value="Epic Games">Epic Games</option>
+						<option value="Mojang Studios">Mojang Studios</option>
+						<option value="Riot Games">Riot Games</option>
+						<option value="Ubisoft">Ubisoft</option>
+					</select><br></br>
+				</p>
+				<p>
+					<span class="Questions">En Quelle(s) Langage(s) Minecraft a été codé ?</span>
+					<input type="checkbox" name="Java" id="Java"/>
+					<label for="Java"> Java </label>
+					<input type="checkbox" name="Bedrock" id="Bedrock"/>
+					<label for="Bedrock">Bedrock </label>
+					<input type="checkbox" name="Css" id="Css"/>
+					<label for="Css">Css </label>
+					<input type="checkbox" name="C++" id="C++"/>
+					<label for="C++">C++ </label>
+				</p>
+				<p>
+					<span class="Questions">En Quelle année est sortie Fortnite ?</span>
+					<input type="radio" name="AnneeFo" id="23/07/2012"/>
+					<label for="23/07/2012">23/07/2012</label>
+					<input type="radio" name="AnneeFo" id="21/01/2016"/>
+					<label for="21/01/2016">21/01/2016</label>
+					<input type="radio" name="AnneeFo" id="15/06/2018"/>
+					<label for="15/06/2018">15/06/2018</label>
+					<input type="radio" name="AnneeFo" id="25/07/2017"/>
+					<label for="25/07/2017">25/07/2017</label>
+				</p>
+				<p>
+					<span class="Questions">Quelles sont les modes de jeux ? </span>
+					<input type="checkbox" name="PVE" id="PVE"/>
+					<label for="PVE"> PVE </label>
+					<input type="checkbox" name="Multi" id="Multi"/>
+					<label for="Multi">Multi </label>
+					<input type="checkbox" name="PVP" id="PVP"/>
+					<label for="PVP"> PVP </label>
+					<input type="checkbox" name="Creatif" id="Creatif"/>
+					<label for="Creatif">Créatif</label>
+				</p>
+				<p>
+					<label for="DvpStudio2" class="Questions">Le Studio qui a dévloppé Fortnite est :</label>
+					<select name="DvpStudio2" id="DvpStudio2">
+						<option value="default">--choisissez votre réponse--</option>
+						<option value="Epic Games">Epic Games</option>
+						<option value="Nintendo">Nintendo</option>
+						<option value="Microsoft">Microsoft</option>
+						<option value="Riot Games">Riot Games</option>
+					</select>
+				</p>
+				<p>
+					<span class="Questions">En Quelle Langage Fortnite a été codé ?</span>
+					<input type="radio" name="langageFO" id="Java"/>
+					<label for="Java">Java</label>
+					<input type="radio" name="langageFO" id="Html"/>
+					<label for="Html">Html</label>
+					<input type="radio" name="langageFO" id="Unreal Ungine"/>
+					<label for="Unreal Ungine">Unreal Ungine</label>
+					<input type="radio" name="langageFO" id="C#"/>
+					<label for="C#">C#</label>
+				</p>
+				
+				</fieldset>
+				<fieldset>
+					<legend>Un Avis 🤔 :</legend>
+					<label for="message" id="pre-msg">Un avis sur le quiz ? , Laissez un message (facultatif) :</label><br></br>
+					<textarea maxlength="300" cols="82" rows="3" name="message" id="message" placeholder="Maximum 300 caractères !"></textarea>
+				</fieldset>
+				
+				<div id="buttons">
+					<input type="submit" name="envoyer" value="Envoyer"/>
+					<section class="home1">
+						<a href="../collection/Quiz.xhtml">Retour Page Quiz</a>
+					</section>
+					<input type="reset" name="reset" value="Réinitialiser" onclick="window.alert('Vous venez de réinitialiser le formulaire !')"/>
+				</div>
+			</form>
+		</div>	
+	</body>
+</html>

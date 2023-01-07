@@ -1,0 +1,103 @@
+/* Parametre de style generale au formulaire*/
+body
+{
+	background:url("../Images/fond.jpg");
+	margin-top: 10px;
+}
+
+#page{
+	width: 830px;
+	margin:auto;
+	height: 1130px;
+	background-color: #60bda7 ;
+	border-radius: 10px;
+	font-family: Calibri;
+	text-decoration: none;
+}
+
+form{
+	position: relative;
+	top: 40px;
+	margin:auto;
+	width: 755px;
+	height: 690px;
+}
+
+#header{
+	margin: auto;
+	background-color: #60bda7;
+	width: 755px;
+	height: 115px;
+	border: 2px white solid;
+	border-radius: 5px;
+	text-align: center;
+}
+
+h1{
+	margin-top:14px;
+	text-shadow: -2px -2px 4px white;
+	font-size: 40px;
+}
+
+fieldset{
+	border: 2px white solid;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+h3{
+	margin-top: -25px;
+	font-size: 15px;
+	color: #555555;
+}
+/*style spécifique pour la partie je m'identifie  */
+input[type="text"],input[type="password"],input[type="email"],select{
+	width: 205px;
+	margin-bottom: 20px;
+}
+
+.pre-input{
+	font-weight: bold;
+	display:inline-block;
+	width: 160px;
+	padding-right: 25px;
+	text-align: right;
+}
+
+/*Style pour la legende de chaque partie , un avis , c'est partie , je m'identifie */
+legend{
+	font-weight: bold;
+	font-size:23px;
+}
+
+/* Style spécifique à la partie , c'est partie et Un avis */
+.Questions,#pre-msg{
+	font-weight: bold;
+	width: 160px;
+}
+
+/* style pour le champ d'ecriture pour la partie un avis */
+textarea[name=message]
+{
+ resize : none;
+}
+
+/*Style pour les boutons d'envoi ou de reinitialisation ou de retour */
+#buttons{
+	width:700px; 
+	margin: auto;
+}
+
+input[type="submit"], input[type="reset"],.home1{
+	background-color: #498f7e ;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 16px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	padding: 5px 30px;
+	margin: 30px 28.7px;
+  display: inline-block;
+}

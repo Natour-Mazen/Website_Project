@@ -1,0 +1,57 @@
+/* Paramètres de Styles à la page index.xhtml + sitemap.xhtml + synoptic.xhtml */
+body{
+
+	background:url("../Images/mario.gif")fixed no-repeat right,
+		url("../Images/sonic.gif")fixed no-repeat center left,
+		url("../Images/fond.jpg");
+}
+
+h1,h2,.info,h4,h5
+{
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: oblique; 
+	margin: auto;
+	text-align:center;
+	font-size: 39px;
+	padding-top: 200px;
+	text-decoration:underline;
+}  
+
+h2,h5
+{
+	padding-top: 10px;
+}  
+
+.info{
+	padding-top: 20px;
+	font-size: 20px;
+}
+.omg{
+	text-align: center;
+	margin-top: 150px;
+}
+/* Paramètres de Styles spécifique à La page sitemap.xhtml */
+ul{
+	font-family:  Charcoal, sans-serif;
+	font-size: 20px;
+	text-align:center;
+}
+.hide{
+	display: none;
+}
+.bouton{
+	 border: 0;
+    padding: 0 ;
+    font-size: 1rem;
+    background-color: #cfebff;
+}
+/* Paramètres de Styles spécifique à La page synoptic.xhtml */
+table{
+  border-collapse:  collapse;
+  margin :  auto;
+	text-align: center;
+	font-family:  Charcoal, sans-serif;
+}
+td , th {
+    border: 4px solid #333;
+}

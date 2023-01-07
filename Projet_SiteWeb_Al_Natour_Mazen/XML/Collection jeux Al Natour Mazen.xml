@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE collection SYSTEM "Collection-AL Natour_Mazen.dtd">
+<!-- Al Natour Mazen , LAS informatique groupe 6a -->
+<!-- Cette fiche xml represente mon site en generale , il pourrait y 'avoir et il'y aura probablement des modification entre la version xml,dtd et les versions
+     html,css , les textes expliquant chaque exemple seront terminée bien évidemment sur la version finale html,css ; avec toutes les consignes 
+	 demandés -->
+<jeux>
+	<title> collections de jeux </title>
+	<Histoire> Explication histoire des jeux à FAIRE </Histoire>
+	<jeux-rétro nbr exemples="2">
+		<Histoire> Explication histoire des jeux des anciennes génerations </Histoire>
+		<exemple author = "qdsq" date-creation="1989" programming-language="?" >
+		Tetris, est un jeu .............................................
+		</exemple>
+		<exemple author = "qdsq" date-creation="1950" programming-language="?" >
+		Pac-man, est un jeu .............................................
+		</exemple>
+	</jeux-rétro>
+
+	<jeux-modernes nbr exemples="2">
+		<Histoire> Explication histoire des jeux des nouvelles génerations </Histoire>
+		<exemple author = "Markus Persson alias Notch" date-creation="2009" programming-language="java" >
+		Minecraft, est un jeu .............................................
+		</exemple>
+		<exemple author = "Darren Sugg " date-creation="2017" programming-language="C++" >
+		Fortnite, est un jeu .............................................
+		</exemple>
+	</jeux-modernes>
+
+	<image name="Tetris.jpg"/>      
+	<image name="Pac-man.jpg"/>      
+	<image name="Minecraft.jpg"/>     
+	<image name="Fortnite.jpg"/>    
+	
+	<Quiz>
+	    Un quiz permettant de savoir si on a compris l'essentiel de ma page en JS bien évidemment , avec potentiellement des levels differents 
+	</Quiz>
+
+	<source  href="source.com"> </source>  <!-- des sources pour chaque partie , d'où j'ai pris les information --> 
+	<source  href="source.com"> </source>  <!-- des sources pour chaque partie , d'où j'ai pris les information --> 
+	<source  href="source.com"> </source>  <!-- des sources pour chaque partie , d'où j'ai pris les information --> 
+	<source  href="source.com"> </source>  <!-- des sources pour chaque partie , d'où j'ai pris les information --> 
+
+</jeux>
